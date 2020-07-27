@@ -7,4 +7,5 @@ workflows:
     jobs:
       - docker/publish:
           image: robertmccausland4/kubenator
+          dockerfile: dockerfile
           tag: latest
