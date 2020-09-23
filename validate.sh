@@ -1,5 +1,5 @@
 #!/bin/bash
 
-for entry in /data/*; do
+for entry in $(find /data); do
   cat $entry | kubeyaml
 done
