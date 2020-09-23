@@ -4,7 +4,7 @@ RUN apk update
 RUN apk add git
 RUN apk add bash
 
-RUN go get github.com/chuckha/kubeyaml/tree/v2/cmd/kubeyaml
+RUN go get github.com/chuckha/kubeyaml/cmd/kubeyaml@v2
 
 VOLUME /data
 
